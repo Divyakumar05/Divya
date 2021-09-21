@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
 }
-
 #nav-bar {
     background-color: #52057b;
     position: sticky;
@@ -10,32 +9,26 @@
     z-index: 10;
     float: right;
 }
-
 .navbar {
     padding: 0 !important;
 }
-
 .navbar-nav li {
     padding: 0 10px;
 }
-
 .navbar-nav li a {
     color: #fff !important;
     font-weight: 600;
     float: right;
     text-align: left;
 }
-
 .navbar-brand {
     font-size: 1.5rem;
     color: #5f6368!important;
 }
-
 .nav-link {
     float: right;
     color: #5f6368!important;
 }
-
 .nav-link:hover {
     background-color: blue;
 }
