@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 </head>
-
 <body>
     <!-- navbar starts here  -->
     <section id="nav-bar">
@@ -47,7 +45,6 @@
             <button class="btn btn-info" data-toggle="modal" data-target="#sendMoney">Send Money</button>
             <a class="btn btn-info" href="history.html" data-toggle="modal" data-target="#transactionHistory">See All Transactions</a>
         </div>
-
         <!-- Modal send money -->
         <div class="modal fade" id="sendMoney" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -92,7 +89,6 @@
                 </div>
             </div>
         </div>
-
         <!-- Modal transaction History-->
         <div class="modal fade" id="transactionHistory" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -105,7 +101,6 @@
                     </div>
                     <div class="modal-body">
                         <ol id="transaction-history-body">
-
                         </ol>
                     </div>
                     <div class="modal-footer">
@@ -114,7 +109,6 @@
                 </div>
             </div>
         </div>
-
         <!-- table  -->
         <div class="container">
             <div class="table-responsive">
